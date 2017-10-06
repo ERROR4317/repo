@@ -1,15 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo "##############################################"
-echo " I  AM  DEVIL (Lokesh) , PLZ SUBSCRIBE MY CHANNEL"
+echo "         Script by: hax4us.com            "
 echo "##############################################"
 
-echo "WAIT UNTIL INSTALLING............" 
+echo "FAZENDO A INSTALAÇÃO AGUARDE............" 
 
-echo "####################################"
+echo "##############################################"
 apt install -y autoconf bison clang coreutils curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql
-echo "####################################"
+echo "##############################################"
 apt update && apt upgrade
-echo "Downloading & Extracting....."
+echo "Baixando & Extraindo....."
 
 cd $HOME
 curl -LO https://github.com/rapid7/metasploit-framework/archive/4.16.4.tar.gz
@@ -41,16 +41,11 @@ bundle install -j5
 $PREFIX/bin/find -type f -executable -exec termux-fix-shebang \{\} \;
 rm ./modules/auxiliary/gather/http_pdf_authors.rb
 ln -s $HOME/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
-echo "###############################"
-echo "Thanx  To  Vishalbiswani"
-echo "###############################"
 
 echo "###############################################"
-echo "Hello  I  Am  Devil  (Lokesh) ,  Subscribe  My  Channel  To  Motivate  My  Work"
+echo "---------------Code The World-----------------"
 echo "###############################################"
-echo "###############################"
-echo "For  More. Tricks. Visit  At  hax4us.com"
-echo "###############################"
-echo "####################################"
-echo " NOW YOU CAN LAUNCH METASPLOIT BY JUST EXECUTE THE COMMAND :=> msfconsole"
-echo "####################################"
+echo ""
+echo "##############################################"
+echo " PARA ABRIR o METASPLOIT USE > msfconsole     "
+echo "##############################################"
