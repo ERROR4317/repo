@@ -3,7 +3,7 @@ echo "##############################################"
 echo "         Script by: ERROR4317            "
 echo "##############################################"
 
-echo "FAZENDO A INSTALAÇÃO AGUARDE............" 
+echo "..MAKING THE INSTALLATION WAIT.........." 
 
 echo "##############################################"
 apt install -y autoconf bison clang coreutils curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql
