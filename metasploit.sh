@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo "##############################################"
-echo "         Script by: hax4us.com            "
+echo "         Script by: ERROR4317            "
 echo "##############################################"
 
 echo "FAZENDO A INSTALAÇÃO AGUARDE............" 
